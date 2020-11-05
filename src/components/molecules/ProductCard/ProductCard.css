@@ -1,0 +1,127 @@
+.productItemBlock {
+  padding: 0;
+  margin: 0 0 25px;
+  background: #fff;
+}
+
+.productItemBlockInner {
+  padding: 0;
+  color: #151515;
+  transition: 200ms all ease-in-out;
+}
+
+.productItemBlockInner:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.productItemBlockInner:hover img {
+  transform: scale(1.1);
+}
+
+.productItemDivBlock {
+  float: left;
+  width: 100%;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.popularProDiv {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-height: 342px;
+  /* overflow: hidden; */
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.productItemBlockInner .popularProDiv img {
+  transition: all ease-in-out 0.6s;
+  -webkit-transition: 0.6s ease-in-out;
+}
+
+/* .productItemDivBlock > img {
+  width: 100%;
+} */
+
+.productItemBlockInner .productItemDivBlock .availableSizesList {
+  position: absolute;
+  left: 0;
+  bottom: -120%;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 15px 10px;
+  transition: bottom ease-in-out 0.6s;
+  -webkit-transition: bottom 0.6s ease-in-out;
+  text-align: left;
+  opacity: 0;
+}
+
+.productItemBlockInner:hover .productItemDivBlock .availableSizesList {
+  bottom: 0;
+  opacity: 1;
+}
+
+.availableSizesList small {
+  display: inline-block;
+  font-size: 9px;
+  vertical-align: top;
+  margin: 10px 0 0 8px;
+  font-weight: 400;
+  color: #858585;
+  position: relative;
+  line-height: 14px;
+  text-transform: uppercase;
+  float: left;
+  width: 100%;
+}
+
+.availableSizesList span {
+  float: left;
+  font-size: 13px;
+  color: #151515;
+  font-weight: 700;
+  padding-right: 12px;
+  margin: 5px 0 0;
+}
+
+.productItemInfo {
+  padding: 15px;
+  background: #fff;
+  text-align: left;
+}
+
+.spnStyleNum {
+  display: inline-block;
+  float: left;
+  font-size: 11px;
+  font-weight: 400;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.productItemInfo h4 {
+  font-size: 13px;
+  color: #000;
+  margin: 0 0 5px;
+  max-height: 32px;
+  overflow: hidden;
+  line-height: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.spnProrice {
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  float: left;
+  font-weight: 700;
+}

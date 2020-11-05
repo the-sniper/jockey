@@ -1,0 +1,61 @@
+.bredcrumbsBlock {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.bredcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bredcrumbs li {
+  list-style-type: none;
+  float: left;
+  padding: 6px 18px 0 2px;
+  font-size: 9px;
+  color: #858585;
+  position: relative;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.bredcrumbs li:first-child {
+  padding-left: 0;
+}
+
+.bredcrumbs li.active {
+  color: #858585;
+}
+
+.bredcrumbs li a {
+  color: #858585;
+  float: left;
+  line-height: 15px;
+}
+
+.bredcrumbs li a:hover {
+  text-decoration: underline;
+}
+
+.bredcrumbs li::after {
+  content: "/";
+  float: right;
+  width: 7px;
+  height: 13px;
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  right: 4px;
+}
+
+.bredcrumbs li:last-child a {
+  color: #3a302e;
+  pointer-events: none;
+}
+
+.bredcrumbs li:last-child:after {
+  display: none;
+}

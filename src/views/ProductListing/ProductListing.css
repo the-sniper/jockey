@@ -1,0 +1,31 @@
+.productListing{
+    background: #fbfbfb;
+}
+
+.productTitleInnerDiv {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.productTitleInnerDiv h1 {
+  margin: 0 0 10px;
+  text-align: left;
+  color: #151515;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.productTitleInnerDiv h1 small,
+.productTitleInnerDiv small {
+  display: inline-block;
+  font-size: 9px;
+  vertical-align: top;
+  margin: 10px 0 0 8px;
+  font-weight: 400;
+  color: #858585;
+  position: relative;
+  line-height: 14px;
+  text-transform: uppercase;
+}
